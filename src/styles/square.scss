@@ -1,0 +1,36 @@
+.square {
+  background: #fff;
+  float: left;
+  font-size: 50px;
+  padding: 0;
+  text-align: center;
+  width: 80px;
+  line-height: 80px;
+  height: 80px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  background-color: #538fbe;
+  margin: 10px;
+  border: 1px solid #2d6898;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, #4984b4),
+    color-stop(1, #619bcb)
+  );
+  border-radius: 5px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 50%);
+  box-shadow: 0 6px 0 #2b638f, 0 3px 15px rgba(0, 0, 0, 40%),
+    inset 0 1px 0 hsla(0deg, 0%, 100%, 30%),
+    inset 0 0 3px hsla(0deg, 0%, 100%, 50%);
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.not-occupied {
+  cursor: pointer;
+}
